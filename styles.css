@@ -33,14 +33,14 @@
 
 
 .work_image img:hover, .work_img img:active {
-    animation: rotate 5s linear infinite, glitter 5s linear infinite;
+    animation: rotate 10s linear infinite, glitter 10s linear infinite;
     box-shadow: 0 0 10px rgba(255, 255, 0, 0.5); /* adds a yellow glow effect on hover and touch */
   }
   
   .work_image img {
-    border-radius: 50%;
-    transition: box-shadow 0.3s;
-    animation: rotate 5s linear infinite; /* adds rotation animation */
+    border-radius: 60%;
+    transition: box-shadow 0.5s;
+    animation: rotate 10s linear infinite; /* adds rotation animation */
   }
   
   
@@ -105,9 +105,9 @@
     #contact {
       background-color: #f7f7f7; /* light gray background */
       padding: 20px; /* add some padding */
-      border: 1px solid #ccc; /* add a border */
+      border: 1px solid #ddd; /* add a border */
       border-radius: 10px; /* add rounded corners */
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* add a subtle shadow */
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.05); /* add a subtle shadow */
     }
 
 
@@ -608,5 +608,6 @@ img {
     right: 10%;
   }
 }
+
 
 
